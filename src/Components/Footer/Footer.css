@@ -6,9 +6,9 @@ footer{
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 14vh;
+	height: 10vh !important;
 	overflow-x: scroll;
-	font-size: 1.2rem;
+	font-size: 1.1rem !important;
 	margin-left: auto;
 	font-family: "Hind", sans-serif;
 
