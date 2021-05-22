@@ -16,7 +16,7 @@ const App = () => {
       <header className="jumbotron ">
         <span className="m-0 p-0"> Vaccine Availability for 18+ in Ahmedabad Corporation </span>
       </header>
-      <p className="marquee  text-secondary text-muted p-0">Made By: Mayur keswani</p>
+      <p className="marquee  text-secondary text-muted p-0">Don't refresh manually</p>
       <a className="faq  float-right faq  btn btn-secondary mr-0" href={pdf}>FAQ</a>
       
       <section className="main-section">
