@@ -53,3 +53,12 @@ header , footer {
   text-align: left;
   margin-top: 0.5rem;
 }
+@media(max-width:599px){
+  .message-box{
+    width:80% !important;
+  }
+  .tip-box{
+    width:60%;
+    
+  }
+}
