@@ -19,7 +19,7 @@ if(hourHand>9 && currentDate!==31){
 	month+=1
   }
 const api =
-  `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=170&date=${currentDate}-${month}-2021`;
+  `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=770&date=${currentDate}-${month}-2021`;
 console.log(currentDate +" - " + month)
 
   
