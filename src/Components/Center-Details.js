@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import {AiFillCopy} from 'react-icons/ai'
 
-const CenterDetails = ({name,address,pincode,vaccine,available_capacity,date}) =>{
+const CenterDetails = ({name,address,pincode,vaccine,available_capacity_dose1,available_capacity_dose2,date}) =>{
   let pinCodeRef = useRef();
   const copyToClipboard = () =>{
 	 
@@ -26,7 +26,9 @@ const CenterDetails = ({name,address,pincode,vaccine,available_capacity,date}) =
 	  </div>
 	   
 	  <div>Vaccine = {vaccine}</div>
-	  <div>Vaccine = {available_capacity}</div>
+	  <div>dose 1:<span className="text-white h4">{available_capacity_dose1}</span>
+	        &nbsp;&nbsp;&nbsp; dose 2:<span className="text-white h4"> {available_capacity_dose2}</span>
+	  </div>
 	  <div>Date = {date}</div>
 	</div>
   </div>

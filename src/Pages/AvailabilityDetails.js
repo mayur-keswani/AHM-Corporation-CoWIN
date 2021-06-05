@@ -65,6 +65,8 @@ console.log(currentDate +" - " + month)
 				pincode={cntr.pincode} 
 				vaccine={cntr.vaccine}
 				available_capacity={cntr.available_capacity}
+				available_capacity_dose1={cntr.available_capacity_dose1}
+				available_capacity_dose2={cntr.available_capacity_dose2}
 				date={cntr.date}
 				/>
 				
