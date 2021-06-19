@@ -34,7 +34,7 @@ console.log(currentDate +" - " + month)
 		  //console.log(data)
 		  if (data.sessions.length) {
 			data.sessions = data.sessions.map((center) => {
-			  if (center.available_capacity > 0 && center.min_age_limit === 18 && center.vaccine==="COVAXIN") {
+			  if (center.available_capacity > 0 && center.min_age_limit === 18 ) {
 				  setCenter((prevState) => {
 				  return prevState.concat(center);
 				});
